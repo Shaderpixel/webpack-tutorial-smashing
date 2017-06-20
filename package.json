@@ -27,11 +27,12 @@
     "prebuild": "del-cli dist -f",
     "build": "webpack -p",
     "server": "http-server ./dist",
-    "start": "npm run build -s && npm run server -s"
+    "start": "npm run build -s && npm run server -s",
+    "env": "env"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joezimjs/Webpack-Introduction-Tutorial.git"
+    "url": "git+https://github.com/Shaderpixel/webpack-tutorial-smashing.git"
   },
   "keywords": [
     "webpack"
@@ -39,7 +40,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joezimjs/Webpack-Introduction-Tutorial/issues"
+    "url": "https://github.com/Shaderpixel/webpack-tutorial-smashing/issues"
   },
-  "homepage": "https://github.com/joezimjs/Webpack-Introduction-Tutorial#readme"
+  "homepage": "https://github.com/Shaderpixel/webpack-tutorial-smashing#readme"
 }
